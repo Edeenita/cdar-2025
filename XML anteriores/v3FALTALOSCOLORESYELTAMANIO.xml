@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scenario>
+  <networks>
+    <network id="7" name="sw1" icon="" canvas="1" type="SWITCH">
+      <position x="150.57275390625" y="278.9966125488281" lat="47.57663036668266" lon="-122.13029529165689" alt="2.0"/>
+    </network>
+    <network id="9" name="sw2" icon="" canvas="1" type="SWITCH">
+      <position x="310.0" y="282.0" lat="47.57660306558348" lon="-122.12814705267883" alt="2.0"/>
+    </network>
+    <network id="12" name="sw3" icon="" canvas="1" type="SWITCH">
+      <position x="162.42591857910156" y="501.70635986328125" lat="47.57460587368758" lon="-122.13013557347203" alt="2.0"/>
+    </network>
+    <network id="14" name="sw4" icon="" canvas="1" type="SWITCH">
+      <position x="431.13214111328125" y="443.4910583496094" lat="47.57513507438186" lon="-122.12651482987243" alt="2.0"/>
+    </network>
+    <network id="15" name="sw5" icon="" canvas="1" type="SWITCH">
+      <position x="417.5566711425781" y="532.2547607421875" lat="47.57432817419812" lon="-122.12669775565489" alt="2.0"/>
+    </network>
+  </networks>
+  <devices>
+    <device id="1" name="R1" icon="" canvas="1" type="router" class="" image="" compose="" compose_name="">
+      <position x="126.91067504882812" y="43.73651123046875" lat="47.57876886084259" lon="-122.13061413176328" alt="2.0"/>
+      <services>
+        <service name="StaticRoute"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="2" name="R4" icon="" canvas="1" type="router" class="" image="" compose="" compose_name="">
+      <position x="49.914981842041016" y="194.33216857910156" lat="47.577399969283164" lon="-122.13165162788356" alt="2.0"/>
+      <services>
+        <service name="StaticRoute"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="3" name="R2" icon="" canvas="1" type="router" class="" image="" compose="" compose_name="">
+      <position x="233.94911193847656" y="181.3617401123047" lat="47.577517869908405" lon="-122.12917181780558" alt="2.0"/>
+      <services>
+        <service name="StaticRoute"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="4" name="Router-wifi" icon="" canvas="1" type="router" class="" image="" compose="" compose_name="">
+      <position x="369.5948181152344" y="76.4176254272461" lat="47.57847179753902" lon="-122.12734402863931" alt="2.0"/>
+      <services>
+        <service name="StaticRoute"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="5" name="PC-casa" icon="" canvas="1" type="PC" class="" image="" compose="" compose_name="">
+      <position x="592.791748046875" y="73.9107666015625" lat="47.5784945843299" lon="-122.12433651043641" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="6" name="Admin" icon="" canvas="1" type="PC" class="" image="" compose="" compose_name="">
+      <position x="37.103641510009766" y="292.4012451171875" lat="47.57650851709128" lon="-122.13182425722601" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="8" name="R3" icon="" canvas="1" type="router" class="" image="" compose="" compose_name="">
+      <position x="167.1108856201172" y="398.6416015625" lat="47.5755427704811" lon="-122.13007244480954" alt="2.0"/>
+      <services>
+        <service name="StaticRoute"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="10" name="Server-Docker" icon="" canvas="1" type="PC" class="" image="" compose="" compose_name="">
+      <position x="451.5392150878906" y="241.47396850585938" lat="47.576971450155796" lon="-122.12623985007558" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="11" name="Server2" icon="" canvas="1" type="PC" class="" image="" compose="" compose_name="">
+      <position x="462.8242492675781" y="323.93585205078125" lat="47.57622186291122" lon="-122.1260877872953" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="13" name="R5" icon="" canvas="1" type="router" class="" image="" compose="" compose_name="">
+      <position x="286.9017028808594" y="501.1045227050781" lat="47.57461134465873" lon="-122.1284582959789" alt="2.0"/>
+      <services>
+        <service name="StaticRoute"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="16" name="R6-wifi" icon="" canvas="1" type="router" class="" image="" compose="" compose_name="">
+      <position x="366.8180236816406" y="670.3480224609375" lat="47.573072822411525" lon="-122.12738144519253" alt="2.0"/>
+      <services>
+        <service name="StaticRoute"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="17" name="ServerA" icon="" canvas="1" type="PC" class="" image="" compose="" compose_name="">
+      <position x="620.3579711914062" y="439.2631530761719" lat="47.5751735075467" lon="-122.12396506304279" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="18" name="PC1" icon="" canvas="1" type="PC" class="" image="" compose="" compose_name="">
+      <position x="607.0" y="501.0374755859375" lat="47.57461195414723" lon="-122.12414505808806" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="19" name="PC2" icon="" canvas="1" type="PC" class="" image="" compose="" compose_name="">
+      <position x="612.571044921875" y="576.251953125" lat="47.57392821621119" lon="-122.12406998976604" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="20" name="PC3" icon="" canvas="1" type="PC" class="" image="" compose="" compose_name="">
+      <position x="603.7276000976562" y="638.0770874023438" lat="47.57336618754447" lon="-122.1241891527908" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="21" name="PC4" icon="" canvas="1" type="PC" class="" image="" compose="" compose_name="">
+      <position x="595.6483764648438" y="717.9765014648438" lat="47.57263984357312" lon="-122.1242980181419" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+  </devices>
+  <links>
+    <link node1="12" node2="13">
+      <iface1 id="1" name="veth12.1.1"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:10" ip4="10.10.1.130" ip4_mask="27" ip6="2001:0:0:6::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="3" node2="9">
+      <iface1 id="1" name="eth1" mac="00:00:00:aa:00:0c" ip4="10.10.0.1" ip4_mask="24" ip6="2001:0:0:5::2" ip6_mask="64"/>
+      <iface2 id="1" name="veth9.1.1"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="8" node2="9">
+      <iface1 id="1" name="eth1" mac="00:00:00:aa:00:0b" ip4="10.10.0.2" ip4_mask="24" ip6="2001:0:0:5::1" ip6_mask="64"/>
+      <iface2 id="0" name="veth9.0.1"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="7" node2="8">
+      <iface1 id="2" name="veth7.2.1"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:0a" ip4="10.10.1.162" ip4_mask="28" ip6="2001:0:0:4::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="9" node2="10">
+      <iface1 id="2" name="veth9.2.1"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:0d" ip4="10.10.0.3" ip4_mask="24" ip6="2001:0:0:5::14" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="7" node2="6">
+      <iface1 id="1" name="veth7.1.1"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:09" ip4="10.10.1.163" ip4_mask="28" ip6="2001:0:0:4::14" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="2" node2="7">
+      <iface1 id="1" name="eth1" mac="00:00:00:aa:00:08" ip4="10.10.1.161" ip4_mask="28" ip6="2001:0:0:4::1" ip6_mask="64"/>
+      <iface2 id="0" name="veth7.0.1"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="4" node2="1">
+      <iface1 id="1" name="eth1" mac="00:00:00:aa:00:06" ip4="201.0.2.2" ip4_mask="24" ip6="2001:0:0:3::1" ip6_mask="64"/>
+      <iface2 id="2" name="eth2" mac="00:00:00:aa:00:07" ip4="201.0.2.1" ip4_mask="24" ip6="2001:0:0:3::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="13" node2="15">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:12" ip4="10.10.1.65" ip4_mask="27" ip6="2001:0:0:8::1" ip6_mask="64"/>
+      <iface2 id="0" name="veth15.0.1"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="13" node2="16">
+      <iface1 id="3" name="eth3" mac="00:00:00:aa:00:13" ip4="10.10.1.121" ip4_mask="30" ip6="2001:0:0:9::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:14" ip4="10.10.1.122" ip4_mask="30" ip6="2001:0:0:9::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="3" node2="1">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:02" ip4="201.0.1.2" ip4_mask="24" ip6="2001:0:0:1::1" ip6_mask="64"/>
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:03" ip4="201.0.1.1" ip4_mask="24" ip6="2001:0:0:1::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="14" node2="17">
+      <iface1 id="1" name="veth14.1.1"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:15" ip4="10.10.1.114" ip4_mask="29" ip6="2001:0:0:7::14" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="15" node2="19">
+      <iface1 id="2" name="veth15.2.1"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:17" ip4="10.10.1.67" ip4_mask="27" ip6="2001:0:0:8::15" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="9" node2="11">
+      <iface1 id="3" name="veth9.3.1"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:0e" ip4="10.10.0.4" ip4_mask="24" ip6="2001:0:0:5::15" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="15" node2="18">
+      <iface1 id="1" name="veth15.1.1"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:16" ip4="10.10.1.66" ip4_mask="27" ip6="2001:0:0:8::14" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="16" node2="20">
+      <iface1 id="1" name="eth1" mac="00:00:00:aa:00:18" ip4="10.10.1.1" ip4_mask="26" ip6="2001:0:0:a::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:19" ip4="10.10.1.2" ip4_mask="26" ip6="2001:0:0:a::14" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="2" node2="1">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:00" ip4="201.0.0.2" ip4_mask="24" ip6="2001::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:01" ip4="201.0.0.1" ip4_mask="24" ip6="2001::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="13" node2="14">
+      <iface1 id="1" name="eth1" mac="00:00:00:aa:00:11" ip4="10.10.1.113" ip4_mask="29" ip6="2001:0:0:7::1" ip6_mask="64"/>
+      <iface2 id="0" name="veth14.0.1"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="4" node2="5">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:04" ip4="192.168.10.1" ip4_mask="24" ip6="2001:0:0:2::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:05" ip4="192.168.10.2" ip4_mask="24" ip6="2001:0:0:2::14" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="16" node2="21">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:1a" ip4="10.10.1.97" ip4_mask="28" ip6="2001:0:0:b::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:1b" ip4="10.10.1.98" ip4_mask="28" ip6="2001:0:0:b::14" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="8" node2="12">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:0f" ip4="10.10.1.129" ip4_mask="27" ip6="2001:0:0:6::1" ip6_mask="64"/>
+      <iface2 id="0" name="veth12.0.1"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+  </links>
+  <service_configurations>
+    <service name="StaticRoute" node="1">
+      <templates>
+        <template name="staticroute.sh"><![CDATA[#!/bin/sh
+ip addr add 201.0.0.0/24 dev eth0
+ip addr add 201.0.1.0/24 dev eth1
+ip addr add 201.0.2.0/24 dev eth2]]></template>
+      </templates>
+    </service>
+    <service name="StaticRoute" node="2">
+      <templates>
+        <template name="staticroute.sh"><![CDATA[#!/bin/sh
+ip addr add 210.0.0.0/24 dev eth0
+ip addr add 10.10.1.160/28 dev eth1]]></template>
+      </templates>
+    </service>
+    <service name="StaticRoute" node="3">
+      <templates>
+        <template name="staticroute.sh"><![CDATA[#!/bin/sh
+ip addr add 201.0.1.0/24 dev eth0
+ip addr add 10.10.0.0/24 dev eth1]]></template>
+      </templates>
+    </service>
+    <service name="StaticRoute" node="4">
+      <templates>
+        <template name="staticroute.sh"><![CDATA[#!/bin/sh
+ip addr add 192.168.10.0/24 dev eth0
+ip addr add 201.0.2.0/24 dev eth1]]></template>
+      </templates>
+    </service>
+    <service name="StaticRoute" node="8">
+      <templates>
+        <template name="staticroute.sh"><![CDATA[#!/bin/sh
+ip addr add 10.10.1.160/28 dev eth0
+ip addr add 10.10.0.0/24 dev eth1
+ip addr add 10.10.1.128/27 dev eth2]]></template>
+      </templates>
+    </service>
+    <service name="StaticRoute" node="13">
+      <templates>
+        <template name="staticroute.sh"><![CDATA[#!/bin/sh
+ip addr add 10.10.1.128/27 dev eth0
+ip addr add 10.10.1.112/29 dev eth1
+ip addr add 10.10.1.64/27 dev eth2
+ip addr add 10.10.1.120/30 dev eth3]]></template>
+      </templates>
+    </service>
+    <service name="StaticRoute" node="16">
+      <templates>
+        <template name="staticroute.sh"><![CDATA[#!/bin/sh
+ip addr add 10.10.1.120/30 dev eth0
+ip addr add 10.10.1.0/26 dev eth1
+ip addr add 10.10.1.96/28 dev eth2]]></template>
+      </templates>
+    </service>
+  </service_configurations>
+  <session_origin lat="47.579166412353516" lon="-122.13232421875" alt="2.0" scale="150.0"/>
+  <session_options>
+    <configuration name="controlnet" value=""/>
+    <configuration name="controlnet0" value=""/>
+    <configuration name="controlnet1" value=""/>
+    <configuration name="controlnet2" value=""/>
+    <configuration name="controlnet3" value=""/>
+    <configuration name="controlnet_updown_script" value=""/>
+    <configuration name="enablerj45" value="1"/>
+    <configuration name="preservedir" value="0"/>
+    <configuration name="enablesdt" value="0"/>
+    <configuration name="sdturl" value="tcp://127.0.0.1:50000/"/>
+    <configuration name="ovs" value="0"/>
+    <configuration name="platform_id_start" value="1"/>
+    <configuration name="nem_id_start" value="1"/>
+    <configuration name="link_enabled" value="1"/>
+    <configuration name="loss_threshold" value="30"/>
+    <configuration name="link_interval" value="1"/>
+    <configuration name="link_timeout" value="4"/>
+    <configuration name="mtu" value="0"/>
+    <configuration name="checksums" value="0"/>
+  </session_options>
+  <session_metadata>
+    <configuration name="shapes" value="[{&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [100.17699281208876, 60.522639422203156], &quot;label&quot;: &quot;ISP 1&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [111.99999999999858, 97.99999999999892], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;rectangle&quot;, &quot;iconcoords&quot;: [150.00000000000034, 409.99999999999864, 150.00000000000034, 409.99999999999864], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;rectangle&quot;, &quot;iconcoords&quot;: [366.83914642459524, 4.482560726210927, 615.8391464245957, 139.4825607262101], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;#CFCFFF&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 0, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;rectangle&quot;, &quot;iconcoords&quot;: [473.9999999999988, 185.00000000000006, 473.9999999999988, 185.00000000000006], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [574.9999999999959, 128.99999999999903], &quot;label&quot;: &quot;Casa&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [492.99999999999903, 249.9999999999988], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [130.9999999999981, 242.0], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [179.99999999999952, 238.9999999999984], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;rectangle&quot;, &quot;iconcoords&quot;: [31.35014758199332, 13.010286754797178, 258.35014758199225, 149.01028675479583], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;#CFCFFF&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 0, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;rectangle&quot;, &quot;iconcoords&quot;: [13.053617858467803, 150.30556791412295, 185.05361785846677, 402.3055679141233], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;#CFCFFF&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 0, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;rectangle&quot;, &quot;iconcoords&quot;: [66.00000000000009, 537.0, 66.00000000000009, 537.0], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [71.160853575403, 387.14471433871825], &quot;label&quot;: &quot;Administraci\u1ed3n&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [108.99999999999834, 495.9999999999993], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;rectangle&quot;, &quot;iconcoords&quot;: [191.1871202105457, 150.62734186659895, 522.1871202105458, 407.6273418665992], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;#CFCFFF&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 0, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;rectangle&quot;, &quot;iconcoords&quot;: [584.0000000000005, 368.9999999999999, 584.0000000000005, 368.9999999999999], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [469.8927642830647, 389.0910964802496], &quot;label&quot;: &quot;Datacenter&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [688.9999999999975, 350.00000000000216], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [708.9999999999983, 233.99999999999955], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [24.00000000000068, 143.0], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [60.911503593954414, 24.823007187911962], &quot;label&quot;: &quot;Internet&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [388.9999999999997, 466.99999999999756], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [613.0000000000006, 251.99999999999926], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;rectangle&quot;, &quot;iconcoords&quot;: [9.763868097227661, 414.72745726705824, 264.34066416934047, 692.0174247359365], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;#CFCFFF&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 0, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;rectangle&quot;, &quot;iconcoords&quot;: [316.3916819536006, 659.84043192385, 316.3916819536006, 659.84043192385], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [45.72638947544419, 678.7680747544891], &quot;label&quot;: &quot;Troncal&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [648.5718136313396, 396.7461965779507], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [677.8637199050556, 441.40391509483567], &quot;label&quot;: &quot;\u00c1rea computo&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [698.7300671325348, 402.4244894271418], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [271.91172130159674, 99.58220413689773], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [6.9247216726318666, 32.389072088123754], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;rectangle&quot;, &quot;iconcoords&quot;: [278.8689472465669, 417.4642984937725, 846.6982321657739, 740.1806087561883], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;#CFCFFF&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 0, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [669.8827306089963, 544.4087825479762], &quot;label&quot;: &quot;\u00c1rea escritorios&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [686.7301308543355, 642.2431184695582], &quot;label&quot;: &quot;\u00c1rea wifi invitados&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [697.5422629066983, 714.9360556956354], &quot;label&quot;: &quot;\u00c1rea wifi reuniones&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [343.8367640580295, 722.3016532649627], &quot;label&quot;: &quot;Piso 1 - Empresa 1&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [692.1053921418098, 348.4807073598162], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [215.1287928096749, 25.764397097400266], &quot;label&quot;: &quot;ISP N&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [746.9955563506635, 260.46716819733876], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}]"/>
+    <configuration name="edges" value="[]"/>
+    <configuration name="hidden" value="[]"/>
+    <configuration name="canvas" value="{&quot;gridlines&quot;: true, &quot;canvases&quot;: [{&quot;id&quot;: 1, &quot;wallpaper&quot;: null, &quot;wallpaper_style&quot;: 1, &quot;fit_image&quot;: false, &quot;dimensions&quot;: [1000, 750]}]}"/>
+  </session_metadata>
+</scenario>
